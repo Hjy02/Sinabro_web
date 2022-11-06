@@ -1,12 +1,19 @@
 body{
     overflow-x: hidden; overflow-y: auto;
 }
+.fa-face-smile{
+    color: rgb(255, 190, 13);
+    position: relative;
+    left: -40px;
+    top: 50px;
+    font-size: 30px;
+}
 .web_title{
     color: #FFB800;
     position: relative;
     font-size: 13px;
-    left: 40px;
-    top: 25px;
+    left: 60px;
+    top: -15px;
 }
 
 button {
@@ -29,6 +36,7 @@ button {
     left: 1449px;
     bottom: 54px;
     padding: 15px 50px;
+    border-radius: 2px;
 }
 .menu_home:hover{
     box-shadow:200px 0 0 0 #FFB800 inset;
@@ -37,6 +45,7 @@ button {
     left: 1608px;
     bottom: 147px;
     padding: 15px 50px;
+    border-radius: 2px;
 }
 .menu_team:hover{
     box-shadow:200px 0 0 0 #FFB800 inset;
@@ -45,6 +54,7 @@ button {
     left: 1761px;
     bottom: 240px;
     padding: 15px 50px;
+    border-radius: 2px;
 }
 .menu_info:hover{
     box-shadow:200px 0 0 0 #FFB800 inset;
@@ -65,7 +75,18 @@ button {
     position: relative;
     bottom: 180px;
     left: 40px;
+    font-size: 20px;
+}
+
+.submit_start{
+    bottom: 170px;
+    left: 35px;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 15px 5px;
     
-    
-    
+}
+.submit_start:hover{
+    box-shadow:200px 0 0 0 #FFB800 inset;
+
 }
