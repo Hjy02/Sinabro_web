@@ -1,143 +1,68 @@
-body{
-    overflow-x: hidden; overflow-y: auto;
-    
-}
-
-.back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-
-.fa-face-smile{
-    color: rgb(81, 78, 243);
-    position: relative;
-    left: -40px;
-    top: 50px;
-    font-size: 30px;
-}
-.web_title{
-    color: #0F4C75;
-    position: relative;
-    font-size: 13px;
-    left: 60px;
-    top: -15px;
-}
-button {
-    margin:10px 4px;
-    background-color: #FFD875;
-    border: none;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
     text-decoration: none;
-    display:inline-block; 
-    transition:all 0.9s, color 0.3;  
-    padding: 15px 25px;
-}
-
-.menu_home{
-    left: 1449px;
-    bottom: 54px;
-    padding: 15px 50px;
-    border-radius: 2px;
-}
-.menu_home:hover{
-    box-shadow:200px 0 0 0 #FFB800 inset;
-}
-.menu_team{
-    left: 1608px;
-    bottom: 147px;
-    padding: 15px 50px;
-    border-radius: 2px;
-}
-.menu_team:hover{
-    box-shadow:200px 0 0 0 #FFB800 inset;
-}
-.menu_info{
-    left: 1761px;
-    bottom: 240px;
-    padding: 15px 50px;
-    border-radius: 2px;
-}
-.menu_info:hover{
-    box-shadow:200px 0 0 0 #FFB800 inset;
-
-}
-
-.web_content{
-    color: #FFD875;
-    font-size: 35px;
-    text-shadow: 5px 5px #FFB800;
-    margin: 0;
-    position: relative;
-    left: 40px;
-    bottom:150px;
-}
-.web_description{
-    color:#FFB800;
-    position: relative;
-    bottom: 180px;
-    left: 40px;
-    font-size: 20px;
-}
-
-.submit_start{
-    bottom: 170px;
-    left: 35px;
-    border-radius: 2px;
-    font-size: 15px;
-    padding: 15px 5px;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
     
 }
-.submit_start:hover{
-    box-shadow:200px 0 0 0 #FFB800 inset;
+
+h1{
+    font-size: 48px;
+}
+.contents1{
+    font-size: 18px;
+    letter-spacing:5px;
+    line-height : 35px;
+}   
+
+.intro_bg{
+    margin: 0;
+    background-image:url("background.png") ;
+    width: 100%;
+    height: 718px;
+}
+
+.title{
+    width:300px;
+    height:40px;
+    border-radius: 5px;
+    margin-top: 24px;
 
 }
 
-.fa-truck-front {
-    color: rgb(46, 46, 77);
-    position: relative; 
-    left: 10%;
-    top: 500px;
-    font-size: 500%;
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
 }
 
-.fa-utensils{
-    color: rgb(46, 46, 77);
-    position: relative; 
-    left: 80%;
-    top: 500px;
-    font-size: 500%;
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+    color: #000;
 }
 
-.fa-bullhorn{
-    color: rgb(46, 46, 77);
-    position: relative;
-    left: 40%; 
-    top: 500px;
-    font-size: 500%;
+.nav > li {
+    margin-left: 84px;
 }
 
-.bus_description{
-    position: relative;
-    left: 5%;
-    top: 550px;
+.nav > li > a{
+    color: #000;
 }
 
-.notice_description{
-    position: relative;
-    left: 45%;
-    top: 475px;
+.intro_text{
+    width: 100%;
+    margin: 232px auto 232px 15%;
+    text-align: left;
+    
 }
-
-.lunch_description{
-    position: relative;
-    left: 80%;
-    top: 510px;
+.intro_text > h1,
+.intro_text > h4{
+    color: rgb(39, 39, 39);
 }
