@@ -137,8 +137,7 @@ h1{
 }
 
 .main_text > h1{
-
-    padding-top: 20px;
+    
     text-align: center;
 }
 
@@ -151,7 +150,7 @@ h1{
     background: #f2f2f3 ;
     display: flex;
     width: 1280px;
-    height: 500px;
+    height: 350px;
     margin: auto;
 }
 
@@ -179,6 +178,42 @@ h1{
 }
 
 .icons .contents3 {
+    margin : auto ;
+    letter-spacing: 5px;
+    
+}
+.icons1 {
+    background: #f2f2f3 ;
+    display: flex;
+    width: 1280px;
+    height: 500px;
+    margin: auto;
+}
+
+.icons1 > li {
+    flex: 1;
+    height: 290px;
+    flex: 1;
+    margin-top: 49px;
+    background: white;
+    text-align: center;
+}
+
+.icons1 > li > .icon_bus {
+    margin-top: 51px;
+}
+.icons1 > li > .icon_lunch {
+    margin-top: 55px;
+}
+.icons1 > li > .icon_notice {
+    margin-top: 55px;
+}
+
+.icons1 > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.icons1.contents3 {
     margin : auto ;
     letter-spacing: 5px;
     
