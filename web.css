@@ -24,6 +24,13 @@ h1{
     line-height : 23px;
 }   
 
+.button {
+    background-color: rgb(71, 68, 255);
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
 .contents2 {
     font-size: 18px;
     font-weight: 50;
@@ -40,7 +47,7 @@ h1{
 
 .intro_bg{
     margin: 0;
-    background-image:url("background.png") ;
+    background: url("./background.png") center/cover no-repeat;
     width: 100%;
     height: 910px;
     padding: 10px;
@@ -88,7 +95,6 @@ h1{
     height:5%;
     border-radius: 5px;
     margin-top: 24px;
-    background: rgb(207, 30, 30);
     overflow-y: hidden;
     display: block;
 
