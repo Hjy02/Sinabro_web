@@ -154,7 +154,6 @@ h2 {
 }
 
 .icons > li {
-    box-shadow: 10px 10px 5px #4f6986;
     border-radius: 30px;
     flex: 1;
     height: 290px;
@@ -164,9 +163,16 @@ h2 {
     text-align: center;
 }
 
+.icons > li:hover {
+    transform: 0.1s;
+    box-shadow: 10px 10px 10px #4f6986;
+}
+
+
 .icons > li > .icon_bus {
     margin-top: 55px;
 }
+
 .icons > li > .icon_lunch {
     margin-top: 55px;
 }
@@ -190,8 +196,16 @@ h2 {
     margin: auto;
 }
 
+i {
+    color: #191f6b;
+}
+
+i:hover {
+    transform: 0.1s;
+    color: #769FCD;
+}
+
 .icons1 > li {
-    box-shadow: 10px 10px 5px #4f6986;
     border-radius: 30px;
     flex: 1;
     height: 290px;
@@ -199,6 +213,11 @@ h2 {
     margin-top: 49px;
     background: white;
     text-align: center;
+}
+
+.icons1 >li:hover {
+    transform: 0.1s;
+    box-shadow: 10px 10px 10px #4f6986;
 }
 
 .icons1 > li > .icon_phone {
