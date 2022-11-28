@@ -165,7 +165,7 @@ h2 {
 
 .icons > li:hover {
     transform: 0.1s;
-    box-shadow: 10px 10px 10px #4f6986;
+    box-shadow: 10px 10px #4f6986;
 }
 
 
@@ -217,7 +217,7 @@ i:hover {
 
 .icons1 >li:hover {
     transform: 0.1s;
-    box-shadow: 10px 10px 10px #4f6986;
+    box-shadow: 10px 10px #4f6986;
 }
 
 .icons1 > li > .icon_phone {
